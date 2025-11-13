@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4293fd77b1018d47856183f3116e7e6, type: 3}
+  m_Name: passive1
+  m_EditorClassIdentifier: 
+  passive:
+    id: passive1
+    name: Electric Inspiration
+    description: 'When hit: deal additional physical damage of 50% (80% chance) and
+      regenerate 2 mana over time over 4s Element: lightning.'
+    element: lightning
+    trigger: on_hit
+    target: self
+    effects:
+    - effectType: PhysicalDamage
+      parameters:
+        valueTypeInspector: percent
+        valueInspector: 50
+        durationInspector: -1
+        cooldownInspector: 1
+        chanceInspector: 0.8
+        radiusInspector: -1
+        piercePercentInspector: -1
+        statInspector: none
+        stackTypeInspector: none
+        maxStacksInspector: 0
+    - effectType: ManaRegen
+      parameters:
+        valueTypeInspector: flat
+        valueInspector: 2
+        durationInspector: 4
+        cooldownInspector: 30
+        chanceInspector: 1
+        radiusInspector: -1
+        piercePercentInspector: -1
+        statInspector: none
+        stackTypeInspector: none
+        maxStacksInspector: 0
+    scaling:
+      stat: agility
+      ratio: 0.3
+    balance:
+      min_value: 10
+      max_value: 50
+      notes: 
+    notes: Increases writing speed and reading speed while consuming monster energy
+      for extra lightning damage on hit.

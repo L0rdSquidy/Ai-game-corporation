@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4293fd77b1018d47856183f3116e7e6, type: 3}
+  m_Name: passive2
+  m_EditorClassIdentifier: 
+  passive:
+    id: passive2
+    name: Static Shock
+    description: 'On block: apply a lightning damage over time dealing 20% over 3s
+      (90% chance) and grant a shield of 15 over 2s when triggered (70% chance)'
+    element: lightning
+    trigger: on_block
+    target: enemy
+    effects:
+    - effectType: DamageOverTime
+      parameters:
+        valueTypeInspector: percent
+        valueInspector: 20
+        durationInspector: 3
+        cooldownInspector: -1
+        chanceInspector: 0.9
+        radiusInspector: -1
+        piercePercentInspector: -1
+        statInspector: none
+        stackTypeInspector: none
+        maxStacksInspector: 0
+    - effectType: ShieldOnHit
+      parameters:
+        valueTypeInspector: flat
+        valueInspector: 15
+        durationInspector: 2
+        cooldownInspector: 3
+        chanceInspector: 0.7
+        radiusInspector: -1
+        piercePercentInspector: -1
+        statInspector: none
+        stackTypeInspector: none
+        maxStacksInspector: 0
+    scaling:
+      stat: strength
+      ratio: 0.4
+    balance:
+      min_value: 15
+      max_value: 60
+      notes: 
+    notes: Shocks enemies on block, applying damaging shocks over time and granting
+      a shield on hit.

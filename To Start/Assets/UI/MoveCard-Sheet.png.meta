@@ -1,0 +1,1152 @@
+fileFormatVersion: 2
+guid: 9ab3d958c6acf3b4781c8492a646692c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 2
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MoveCard-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3486
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff6c2f116126c94da1093b8b9bde88f
+      internalID: -1495920525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 3486
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afbef7fd730ef3047b90c3320c47ca5b
+      internalID: -1251569986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 3486
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf52f6f146346344a7f41f27f8cf0a0
+      internalID: -1690617143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 3486
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ea05a4a6586b2478aec6cbae4d1196
+      internalID: 369285704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 3486
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082151fbb313620499754078fcd5313e
+      internalID: 1417354977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 4015
+        y: 3486
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c6c1dc57a20314bbfa2de03bf94b25
+      internalID: -1163887245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 4818
+        y: 3486
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bdd7f0227cfc5544a130c6212ce9976
+      internalID: -325098695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2905
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921d8a5cd26c4e74dafd1851c861dccb
+      internalID: 25492861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 2905
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e25cf2c30742e94496f2471f1d88ce1
+      internalID: 1661743167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 2905
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01808c69cd60e584590aa3a8ea8b55c2
+      internalID: -601361061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 2905
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37452b769021c6d4fb4d27353a51f978
+      internalID: 1962503430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 2905
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30eeef69d00a9fc4abe787e9b25f7a0c
+      internalID: 443151635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 4015
+        y: 2905
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f1b4078b254ec4eb45d8787329f5db
+      internalID: 742190906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 4818
+        y: 2905
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00fa4aee72d984d44a0a4a8ab61dff4d
+      internalID: 750527160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2324
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398da95a92491704abf9123b620a1316
+      internalID: -1958913302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 2324
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c583c23c4856c4eadbe29a08c93b08
+      internalID: 2132373896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 2324
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7b41af139d5a340aea83b60ba77daa
+      internalID: 1100482971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 2324
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6badc270f96fec243bdc5d6dadb47016
+      internalID: -635209892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 2324
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3d2a546ce305349a713e225b7d757e
+      internalID: 1278950937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 4015
+        y: 2324
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbce85ebdb87f1b449a6df6d67ecc453
+      internalID: 255703884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 4818
+        y: 2324
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5db2e0fbd20304db7cab1e21c5394e
+      internalID: 535589938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1743
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98da3261a79b6ce40b374e1eb98afc61
+      internalID: 915216460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1743
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f617d74b9cf707d47a42d66a0012c0fa
+      internalID: 1072399873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 1743
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72714ee4dc95f9245bc10b5afe137263
+      internalID: 1590571616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 1743
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781673ed060b67e49b6da02842aeeacb
+      internalID: -377510870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 1743
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9cc0c20ed24b5e4d8d8eea1d3d54cd6
+      internalID: 1103591520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 4015
+        y: 1743
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ac4918c6190de44a174637bfc9889a
+      internalID: 270753585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 4818
+        y: 1743
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed99b3e81200144695fa392d702d239
+      internalID: 561220223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1162
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d57b4ab4aaa89f4cb4ebfb661654fd2
+      internalID: 1427859386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1162
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4772496456bbab14f9d3d9030323c8fa
+      internalID: -1368570790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 1162
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c55570a93336247a425f906ecfd897
+      internalID: 2056421942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 1162
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a120d5906d52f6642afb0f1fbe1c3e7f
+      internalID: 1068645365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 1162
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046cfa7e951c53d42a157ef0bfd9ba2b
+      internalID: 1686775616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 4015
+        y: 1162
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee537e7ae0c1d440b7c2d85b7cba995
+      internalID: 876927794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 4818
+        y: 1162
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be74e48289f4084597773be46501633
+      internalID: -125910473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 581
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9995f61becf25ba48826b73c4109f549
+      internalID: -2054896433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 581
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd11fcf6631e57f4b8f764e418d0c7d2
+      internalID: 842238505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 581
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596e449c79c22d0429722aad6a2a7bd7
+      internalID: 1891051274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 581
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a0d3911fbcc5b46badeec2e1eaeb65
+      internalID: 65626035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 581
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 850fa89b29fc6b04d8dcf4f8d55dbcd4
+      internalID: -1260498562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 4015
+        y: 581
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f167dff085e16f40b5fabce3a8f74cb
+      internalID: 437001404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 4818
+        y: 581
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4fbc97f0a68d01439a3a88e57ad0bcd
+      internalID: 205632923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58bbadc91c7fe50449e72cc274311e6b
+      internalID: 1970814531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 0
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965315fe97e9cc147bf56ce8cc9c4747
+      internalID: -258112317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveCard-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 4818
+        y: 0
+        width: 803
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457dfdad37074ac43ad1ad69b8302fd3
+      internalID: 47422787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2e7a6b37b1739434389beec41ee1e2be
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MoveCard-Sheet_0: -1495920525
+      MoveCard-Sheet_1: -1251569986
+      MoveCard-Sheet_10: 1962503430
+      MoveCard-Sheet_11: 443151635
+      MoveCard-Sheet_12: 742190906
+      MoveCard-Sheet_13: 750527160
+      MoveCard-Sheet_14: -1958913302
+      MoveCard-Sheet_15: 2132373896
+      MoveCard-Sheet_16: 1100482971
+      MoveCard-Sheet_17: -635209892
+      MoveCard-Sheet_18: 1278950937
+      MoveCard-Sheet_19: 255703884
+      MoveCard-Sheet_2: -1690617143
+      MoveCard-Sheet_20: 535589938
+      MoveCard-Sheet_21: 915216460
+      MoveCard-Sheet_22: 1072399873
+      MoveCard-Sheet_23: 1590571616
+      MoveCard-Sheet_24: -377510870
+      MoveCard-Sheet_25: 1103591520
+      MoveCard-Sheet_26: 270753585
+      MoveCard-Sheet_27: 561220223
+      MoveCard-Sheet_28: 1427859386
+      MoveCard-Sheet_29: -1368570790
+      MoveCard-Sheet_3: 369285704
+      MoveCard-Sheet_30: 2056421942
+      MoveCard-Sheet_31: 1068645365
+      MoveCard-Sheet_32: 1686775616
+      MoveCard-Sheet_33: 876927794
+      MoveCard-Sheet_34: -125910473
+      MoveCard-Sheet_35: -2054896433
+      MoveCard-Sheet_36: 842238505
+      MoveCard-Sheet_37: 1891051274
+      MoveCard-Sheet_38: 65626035
+      MoveCard-Sheet_39: -1260498562
+      MoveCard-Sheet_4: 1417354977
+      MoveCard-Sheet_40: 437001404
+      MoveCard-Sheet_41: 205632923
+      MoveCard-Sheet_42: 1970814531
+      MoveCard-Sheet_43: -258112317
+      MoveCard-Sheet_44: 47422787
+      MoveCard-Sheet_5: -1163887245
+      MoveCard-Sheet_6: -325098695
+      MoveCard-Sheet_7: 25492861
+      MoveCard-Sheet_8: 1661743167
+      MoveCard-Sheet_9: -601361061
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

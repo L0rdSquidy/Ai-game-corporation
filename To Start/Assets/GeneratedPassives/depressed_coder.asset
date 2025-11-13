@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4293fd77b1018d47856183f3116e7e6, type: 3}
+  m_Name: depressed_coder
+  m_EditorClassIdentifier: 
+  passive:
+    id: depressed_coder
+    name: Caffeine Shock
+    description: 'When using a skill: increase critical chance by 50% and increase
+      attack speed by 30%'
+    element: No-Attribute
+    trigger: on_Skilluse
+    target: self
+    effects:
+    - effectType: CriticalChance
+      parameters:
+        valueTypeInspector: percent
+        valueInspector: 50
+        durationInspector: -1
+        cooldownInspector: -1
+        chanceInspector: 1
+        radiusInspector: -1
+        piercePercentInspector: -1
+        statInspector: none
+        stackTypeInspector: none
+        maxStacksInspector: 0
+    - effectType: AttackSpeed
+      parameters:
+        valueTypeInspector: percent
+        valueInspector: 30
+        durationInspector: 2
+        cooldownInspector: 4
+        chanceInspector: 1
+        radiusInspector: -1
+        piercePercentInspector: -1
+        statInspector: none
+        stackTypeInspector: none
+        maxStacksInspector: 0
+    scaling:
+      stat: agility
+      ratio: 0.2
+    balance:
+      min_value: 1
+      max_value: 5
+      notes: Can be triggered by every skill
+    notes: 

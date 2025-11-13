@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4293fd77b1018d47856183f3116e7e6, type: 3}
+  m_Name: coding_error
+  m_EditorClassIdentifier: 
+  passive:
+    id: coding_error
+    name: Code Corruption
+    description: 'When hit: deal additional physical damage of 30% (50% chance) and
+      grant a shield of 20 over 4s when triggered'
+    element: No-Attribute
+    trigger: on_hit
+    target: area
+    effects:
+    - effectType: PhysicalDamage
+      parameters:
+        valueTypeInspector: percent
+        valueInspector: 30
+        durationInspector: -1
+        cooldownInspector: 4
+        chanceInspector: 0.5
+        radiusInspector: -1
+        piercePercentInspector: -1
+        statInspector: none
+        stackTypeInspector: none
+        maxStacksInspector: 0
+    - effectType: ShieldOnHit
+      parameters:
+        valueTypeInspector: flat
+        valueInspector: 20
+        durationInspector: 4
+        cooldownInspector: -1
+        chanceInspector: 1
+        radiusInspector: -1
+        piercePercentInspector: -1
+        statInspector: none
+        stackTypeInspector: none
+        maxStacksInspector: 0
+    scaling:
+      stat: strength
+      ratio: 0.3
+    balance:
+      min_value: 25
+      max_value: 50
+      notes: Effect increases with the coder's strength and scales exponentially
+        with up to 3 stacks
+    notes: 
