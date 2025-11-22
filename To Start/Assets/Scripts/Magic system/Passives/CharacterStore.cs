@@ -6,18 +6,15 @@ using UnityEngine;
 
 public static class CharacterStore
 {
-    // In-memory map of characterId -> list of passives
+
     private static Dictionary<string, List<PassiveDefinition>> passivesMap = new Dictionary<string, List<PassiveDefinition>>();
 
-    // Lazy-load guard
+
     private static bool _loadedFromDisk = false;
 
-    // File used to persist all character passives
+
     private static string SaveFilePath => Path.Combine(Application.persistentDataPath, "character_passives.json");
 
-    // ----------------------
-    // Public element access (unchanged)
-    // ----------------------
     public static string GetElementForCharacter(string characterId)
     {
         return PlayerPrefs.GetString($"char_{characterId}_element", null);
@@ -29,9 +26,6 @@ public static class CharacterStore
         PlayerPrefs.Save();
     }
 
-    // ----------------------
-    // Public passives API (Add / Get)
-    // ----------------------
     public static void AddPassivesToCharacter(string characterId, List<PassiveDefinition> passives)
     {
         EnsureLoaded();
@@ -43,7 +37,6 @@ public static class CharacterStore
 
         Debug.Log($"[CharacterStore] Added {passives.Count} passive(s) to '{characterId}'. Now has {passivesMap[characterId].Count} passive(s).");
 
-        // persist immediately
         SaveToDisk();
     }
 
@@ -58,13 +51,13 @@ public static class CharacterStore
         return new List<PassiveDefinition>();
     }
 
-    // Replace the stored passives for the character with the provided list (deep-copied)
+
     public static void SetPassivesForCharacter(string characterId, List<PassiveDefinition> passives)
     {
         EnsureLoaded();
 
         if (passives == null) passives = new List<PassiveDefinition>();
-        // deep clone to avoid external references being mutated
+
         try
         {
             var json = JsonConvert.SerializeObject(passives);
@@ -80,9 +73,7 @@ public static class CharacterStore
         SaveToDisk();
     }
 
-    // ----------------------
-    // Utilities / Debug helpers
-    // ----------------------
+
     public static List<string> GetAllCharacterIds()
     {
         EnsureLoaded();
@@ -110,16 +101,13 @@ public static class CharacterStore
         }
     }
 
-    // Clear all passives (useful for tests). Be careful: this persists immediately.
     public static void ClearAllPassives()
     {
         passivesMap.Clear();
         SaveToDisk();
     }
 
-    // ----------------------
-    // Persistence (disk) — private helpers
-    // ----------------------
+
     private static void EnsureLoaded()
     {
         if (_loadedFromDisk) return;
@@ -145,7 +133,6 @@ public static class CharacterStore
                 return;
             }
 
-            // try deserialize to dictionary
             var dict = JsonConvert.DeserializeObject<Dictionary<string, List<PassiveDefinition>>>(json);
             if (dict != null)
             {
@@ -168,17 +155,13 @@ public static class CharacterStore
     {
         try
         {
-            // ensure directory exists
             var dir = Path.GetDirectoryName(SaveFilePath);
             if (!Directory.Exists(dir)) Directory.CreateDirectory(dir);
 
-            // serialize
             var json = JsonConvert.SerializeObject(passivesMap, Formatting.Indented);
 
-            // write atomically: write to temp file then replace
             var tmp = SaveFilePath + ".tmp";
             File.WriteAllText(tmp, json);
-            // Replace or move - prefer overwrite
             if (File.Exists(SaveFilePath)) File.Delete(SaveFilePath);
             File.Move(tmp, SaveFilePath);
 
